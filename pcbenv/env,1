@@ -429,4 +429,3 @@ source -q $ALLEGRO_SITE/site.env
 ### Place your hand edits above this section.
 ###
 set no_dragpopup
-set scriptpath = C:/SPB_Data/script/ $scriptpath
