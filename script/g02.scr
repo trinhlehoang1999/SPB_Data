@@ -1,0 +1,20 @@
+# Allegro script
+#	file: D:/PROJECT_Flash/028---10-11009A-9_eUSB_using-SM3260/Footprint/g02.scr
+#	start time: Thu Dec 13 08:59:49 2012
+#	Version: 16.5 P003 (v16-5-13C) i86
+version 16.5
+
+setwindow pcb
+trapsize 234
+define grid 
+setwindow form.grid
+FORM grid non_etch non_etch_x_grids 0.2 
+FORM grid non_etch non_etch_y_grids 0.2 
+FORM grid all_etch all_etch_x_grids 0.2 
+FORM grid all_etch all_etch_y_grids 0.2 
+FORM grid top subclass_x_grids 0.2000 
+FORM grid top subclass_y_grids 0.2000 
+FORM grid done  
+setwindow pcb
+
+#	stop time: Thu Dec 13 09:00:12 2012

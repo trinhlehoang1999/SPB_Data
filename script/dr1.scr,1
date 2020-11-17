@@ -1,0 +1,13 @@
+# Allegro script
+#	file: C:/Cadence/SPB_17.2/share/pcb/text/script/dr1.scr
+#	start time: Mon Nov 02 11:20:32 2020
+#	Version: 17.2-2016 S052 (3771228) Windows SPB 64-bit Edition
+version 17.2
+
+setwindow pcb
+trapsize 28
+generaledit
+drc update 
+generaledit 
+
+#	stop time: Mon Nov 02 11:20:40 2020

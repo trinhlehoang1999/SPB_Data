@@ -1,0 +1,18 @@
+# Allegro script
+#	file: D:/PROJECT/LED Project/Layout/g25.scr
+#	start time: Wed Mar 24 14:55:04 2010
+#	Version: 16.2 p005 (v16-2-57E) i86
+version 16.2
+
+setwindow pcb
+trapsize 31
+define grid 
+setwindow form.grid
+FORM grid non_etch non_etch_x_grids 25.0 
+FORM grid non_etch non_etch_y_grids 25.0 
+FORM grid all_etch all_etch_x_grids 25 
+FORM grid all_etch all_etch_y_grids 25 
+FORM grid done  
+setwindow pcb
+
+#	stop time: Wed Mar 24 14:55:17 2010

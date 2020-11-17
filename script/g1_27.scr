@@ -1,0 +1,18 @@
+# Allegro script
+#	file: D:/PRO/2014/Footprint/g1_27.scr
+#	start time: Wed May 28 11:32:19 2014
+#	Version: 16.6 S025 (v16-6-112BW) Windows 32
+version 16.6
+
+setwindow pcb
+trapsize 2106
+define grid 
+setwindow form.grid
+FORM grid non_etch non_etch_x_grids 1.27 
+FORM grid non_etch non_etch_y_grids 1.27 
+FORM grid all_etch all_etch_x_grids 1.27 
+FORM grid all_etch all_etch_y_grids 1.27 
+FORM grid done  
+setwindow pcb
+
+#	stop time: Wed May 28 11:32:44 2014

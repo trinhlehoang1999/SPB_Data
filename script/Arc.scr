@@ -1,0 +1,12 @@
+# Allegro script
+#	file: D:\project\GDS_P_S_ATA_ADAPTOR_REV_A1\worklib\P_S_ATA_ADAPTOR_0094_REVA1\physical\DELIVERY\Arc.scr
+#	start time: Sat Oct 04 11:06:25 2003
+version 14.1
+
+setwindow pcb
+trapsize 1860
+slide 
+setwindow form.mini
+FORM mini corners Arc 
+
+#	stop time: Sat Oct 04 11:06:46 2003

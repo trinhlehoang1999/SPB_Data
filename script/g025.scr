@@ -1,0 +1,18 @@
+# Allegro script
+#	file: D:/PROJECT_A/29-28040A-9_DDR3_RDIMM_VLP_738_using_36DRAMs_2Gb_08Dec2010/Footprint/g0.25
+#	start time: Wed Dec 15 09:10:31 2010
+#	Version: 16.2 p005 (v16-2-57E) i86
+version 16.2
+
+setwindow pcb
+trapsize 27
+define grid 
+setwindow form.grid
+FORM grid non_etch non_etch_x_grids 0.250 
+FORM grid non_etch non_etch_y_grids 0.250 
+FORM grid all_etch all_etch_x_grids 0.25 
+FORM grid all_etch all_etch_y_grids 0.25 
+FORM grid done  
+setwindow pcb
+
+#	stop time: Wed Dec 15 09:10:59 2010

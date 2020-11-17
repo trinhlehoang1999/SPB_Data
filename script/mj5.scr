@@ -1,0 +1,21 @@
+# Allegro script
+#	file: C:/pcbcb/stm32f103c8t6/footprint/mc1.scr
+#	start time: Tue Jun 16 09:47:55 2020
+#	Version: 17.2-2016 P028 (v17-2-50N) Windows SPB 64-bit Edition
+version 17.2
+
+setwindow pcb
+trapsize 1804
+generaledit
+move 
+setwindow form.mini
+FORM mini rotate_point Sym Origin 
+setwindow form.find
+FORM find name_type Symbol (or Pin) 
+setwindow form.mini
+FORM find find_name j5 
+setwindow pcb
+zoom previous 
+trapsize 1804
+
+#	stop time: Tue Jun 16 09:48:05 2020

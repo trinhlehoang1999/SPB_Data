@@ -1,0 +1,21 @@
+# Allegro script
+#	file: D:/PROJECT_A/031---10-14080A-9_DDR3-RS-DIMM_4GB-using-18chips_14June2011/Footprint/g08.scr
+#	start time: Fri Jun 17 11:09:40 2011
+#	Version: 16.2 p005 (v16-2-57E) i86
+version 16.2
+
+setwindow pcb
+trapsize 692
+define grid 
+setwindow form.grid
+FORM grid non_etch non_etch_x_grids 0.800 
+FORM grid non_etch non_etch_y_grids 0.800 
+FORM grid all_etch all_etch_x_grids 0.8 
+FORM grid all_etch all_etch_y_grids 0.8 
+FORM grid top subclass_x_grids 0.800 
+FORM grid top subclass_y_grids 0.800 
+FORM grid l2_split_plane1 subclass_x_grids 0.800 
+FORM grid done  
+setwindow pcb
+
+#	stop time: Fri Jun 17 11:09:58 2011

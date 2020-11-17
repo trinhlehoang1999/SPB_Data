@@ -1,0 +1,22 @@
+# Allegro script
+#	file: //Server/d/HW_PROJECTS/Flash_Design/15-11684A-9_CPF_Hyperstone_A1_TSOPFlash/Delivery_02Sep2011/g2_5.scr
+#	start time: Mon Feb 06 11:27:32 2012
+#	Version: 16.2 p005 (v16-2-57E) i86
+version 16.2
+
+setwindow pcb
+trapsize 413
+define grid 
+setwindow form.grid
+FORM grid non_etch non_etch_x_grids 2.50 
+FORM grid non_etch non_etch_y_grids 2.50 
+FORM grid all_etch all_etch_x_grids 2.5 
+FORM grid all_etch all_etch_y_grids 2.5 
+FORM grid top subclass_x_grids 2.50 
+FORM grid top subclass_y_grids 2.50 
+FORM grid internal1 subclass_x_grids 2.50 
+FORM grid internal1 subclass_y_grids 2.50 
+FORM grid done  
+setwindow pcb
+
+#	stop time: Mon Feb 06 11:27:51 2012

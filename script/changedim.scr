@@ -1,0 +1,38 @@
+# Allegro script
+#	file: E:\project\changedim.scr
+#	start time: Thu Dec 25 10:37:40 2003
+version 14.1
+
+setwindow pcb
+trapsize 6741
+draft param 
+setwindow form.draft_main
+FORM draft_main dim_text  
+setwindow form.draft_dimtext
+FORM draft_dimtext text_block 3 
+FORM draft_dimtext units Mils 
+FORM draft_dimtext done  
+setwindow form.draft_main
+FORM draft_main dim_lines  
+setwindow form.draft_dimline
+FORM draft_dimline arrow_length 0.080 
+FORM draft_dimline arrow_width 0.030 
+FORM draft_dimline bullet_diameter 0.080 
+FORM draft_dimline slash_length 0.080 
+FORM draft_dimline done  
+setwindow form.draft_main
+FORM draft_main dim_extension_lines  
+setwindow form.draft_extline
+FORM draft_extline offset 0.060 
+FORM draft_extline extension 0.060 
+FORM draft_extline offset 0.050 
+FORM draft_extline extension 0.050 
+FORM draft_extline done  
+setwindow form.draft_main
+FORM draft_main dim_balloons  
+setwindow form.draft_balloon
+FORM draft_balloon done  
+setwindow form.draft_main
+FORM draft_main done  
+
+#	stop time: Thu Dec 25 10:38:58 2003

@@ -1,0 +1,81 @@
+# Allegro script
+#	file: D:/PROJECT_Flash/016---10-25001A-9_SATA_2_5_SMI_SM2244_TSOPFlash/Footprint/g127.scr
+#	start time: Wed Nov 30 16:13:28 2011
+#	Version: 16.2 p005 (v16-2-57E) i86
+version 16.2
+
+setwindow pcb
+trapsize 540
+define grid 
+setwindow form.grid
+FORM grid non_etch non_etch_x_grids 1.2700 
+FORM grid non_etch non_etch_y_grids 1.2700 
+FORM grid all_etch all_etch_x_grids 1.27 
+FORM grid all_etch all_etch_y_grids 1.27 
+FORM grid top subclass_x_grids 1.2700 
+FORM grid done  
+setwindow pcb
+prepopup -6.8237 0.3638
+done 
+generaledit 
+show element 
+pick grid -3.8882 0.8063
+pick grid -9.8455 0.3207
+prepopup -6.3380 -0.0031
+done 
+generaledit 
+dimension linear 
+pick grid -4.0609 0.6229
+pick grid -6.3596 -0.0247
+prepopup -5.3344 -0.7370
+done 
+generaledit 
+dimension linear 
+pick grid -10.0074 0.1804
+pick grid -7.5791 -0.0247
+prepopup -7.2769 0.3638
+done 
+generaledit 
+add line 
+setwindow form.mini
+FORM mini class REF DES 
+FORM mini class PACKAGE GEOMETRY 
+FORM mini subclass ASSEMBLY_TOP 
+setwindow pcb
+roam start
+roam x -112
+roam y 32
+roam x -176
+roam y 16
+roam x -112
+roam end
+roam start
+roam x 16
+roam x 160
+roam y 16
+roam x 80
+roam end
+pick grid -7.5792 -0.0247
+pick grid -6.9316 -0.1650
+prepopup -6.4460 -0.1218
+next 
+setwindow pcb
+zoom out -6.3812 -0.5967
+trapsize 1079
+setwindow pcb
+zoom in -6.8777 -0.7693
+trapsize 540
+prepopup -6.6726 -0.9420
+done 
+generaledit 
+add line 
+pick grid -7.6547 1.1517
+pick grid -7.5576 -0.6506
+prepopup -7.6223 -1.1146
+next 
+pick grid -6.3380 1.3244
+pick grid -6.2949 -0.6398
+prepopup -6.3272 -1.0715
+next 
+
+#	stop time: Wed Nov 30 16:15:15 2011

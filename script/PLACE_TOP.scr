@@ -1,0 +1,11 @@
+# Allegro script
+#	file: D:/additional_pcb/PROJECT4/WORK/PCB/PLACE_TOP.scr
+#	start time: Mon Nov 02 14:22:49 2020
+#	Version: 17.2-2016 S052 (3771228) Windows SPB 64-bit Edition
+version 17.2
+
+setwindow pcb
+trapsize 163
+generaledit
+
+#	stop time: Mon Nov 02 14:23:00 2020

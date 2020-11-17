@@ -1,0 +1,20 @@
+# Allegro script
+#	file: D:/PROJECT_Flash/002---10-14000A-9_MicroSATA_JMicron605_TSOPflash/Footprint/g00254.scr
+#	start time: Thu Aug 11 09:15:55 2011
+#	Version: 16.2 p005 (v16-2-57E) i86
+version 16.2
+
+setwindow pcb
+trapsize 433
+define grid 
+setwindow form.grid
+FORM grid non_etch non_etch_x_grids 0.0254 
+FORM grid non_etch non_etch_y_grids 0.0254 
+FORM grid all_etch all_etch_x_grids 0.0254 
+FORM grid all_etch all_etch_y_grids 0.0254 
+FORM grid top subclass_x_grids 0.0254 
+FORM grid top subclass_y_grids 0.0254 
+FORM grid done  
+setwindow pcb
+
+#	stop time: Thu Aug 11 09:16:16 2011

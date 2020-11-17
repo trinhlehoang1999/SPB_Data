@@ -1,0 +1,14 @@
+# Allegro script
+#	file: C:/pcbcb/stm32f103c8t6/footprint/width1_1.scr
+#	start time: Sun Jun 14 20:30:33 2020
+#	Version: 17.2-2016 P028 (v17-2-50N) Windows SPB 64-bit Edition
+version 17.2
+
+setwindow pcb
+trapsize 5048
+setwindow form.mini
+FORM mini acon_line_width 0.2 
+setwindow pcb
+
+
+#	stop time: Sun Jun 14 20:30:45 2020

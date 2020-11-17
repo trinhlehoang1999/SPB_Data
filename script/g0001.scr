@@ -1,0 +1,20 @@
+# Allegro script
+#	file: D:/PROJECT_A/005---28-12092A-9_SO-UDIMM-NoneECC-16chips_VLP_08July_2010/g0001.scr
+#	start time: Fri Jul 09 08:45:33 2010
+#	Version: 16.2 p005 (v16-2-57E) i86
+version 16.2
+
+setwindow pcb
+trapsize 140
+define grid 
+setwindow form.grid
+FORM grid non_etch non_etch_x_grids 0.0010 
+FORM grid non_etch non_etch_y_grids 0.0010 
+FORM grid all_etch all_etch_x_grids 0.001 
+FORM grid all_etch all_etch_y_grids 0.001 
+FORM grid top subclass_x_grids 0.0010 
+FORM grid top subclass_y_grids 0.0010 
+FORM grid done  
+setwindow pcb
+
+#	stop time: Fri Jul 09 08:46:03 2010

@@ -1,0 +1,22 @@
+# Allegro script
+#	file: D:/PROJECT_A/Flash_Design/10-13001A-9_Cfast_Hyperstone_A2_TSOPFlash/Footprint/g0125.scr
+#	start time: Sat Aug 06 10:23:09 2011
+#	Version: 16.2 p005 (v16-2-57E) i86
+version 16.2
+
+setwindow pcb
+trapsize 17
+define grid 
+setwindow form.grid
+FORM grid non_etch non_etch_x_grids 0.125 
+FORM grid non_etch non_etch_y_grids 0.125 
+FORM grid all_etch all_etch_x_grids 0.125 
+FORM grid all_etch all_etch_y_grids 0.125 
+FORM grid top subclass_x_grids 0.125 
+FORM grid top subclass_y_grids 0.125 
+FORM grid bottom subclass_x_grids 0.125 
+FORM grid bottom subclass_y_grids 0.125 
+FORM grid done  
+setwindow pcb
+
+#	stop time: Sat Aug 06 10:23:39 2011

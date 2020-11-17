@@ -1,0 +1,20 @@
+# Allegro script
+#	file: D:/PROJECT_Flash/Footprint/04.scr
+#	start time: Thu Mar 12 15:40:08 2015
+#	Version: 16.6 S025 (v16-6-112BW) Windows 32
+version 16.6
+
+setwindow pcb
+trapsize 581
+define grid 
+setwindow form.grid
+FORM grid non_etch non_etch_x_grids 0.4 
+FORM grid non_etch non_etch_y_grids 0.4 
+FORM grid top subclass_x_grids 0.4000 
+FORM grid top subclass_y_grids 0.4000 
+FORM grid l2_gnd subclass_x_grids 0.4000 
+FORM grid l2_gnd subclass_y_grids 0.4000 
+FORM grid done  
+setwindow pcb
+
+#	stop time: Thu Mar 12 15:40:28 2015
