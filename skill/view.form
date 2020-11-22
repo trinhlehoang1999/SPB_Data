@@ -1,0 +1,117 @@
+FILE_TYPE=FORM_DEFN VERSION=2
+FORM
+FIXED
+PORT 80 100
+HEADER "Show Artwork----@Truong"
+
+TILE
+#======================
+FIELD report_ol
+FLOC 2 2
+CHECKLIST "Outline"
+ENDFIELD
+
+FIELD report_st
+FLOC 2 5
+CHECKLIST "Silk Top"
+ENDFIELD
+
+FIELD report_sb
+FLOC 2 8
+CHECKLIST "Silk Bot"
+ENDFIELD
+
+FIELD report_ast
+FLOC 2 11
+CHECKLIST "ASY_Top"
+ENDFIELD
+
+FIELD report_asb
+FLOC 2 14
+CHECKLIST "ASY_Bot"
+ENDFIELD
+
+FIELD report_smt
+FLOC 2 17
+CHECKLIST "Smask_Top"
+ENDFIELD
+
+FIELD report_smb
+FLOC 2 20
+CHECKLIST "Smask_Bot"
+ENDFIELD
+
+FIELD report_pmt
+FLOC 2 23
+CHECKLIST "Paste_Top"
+ENDFIELD
+
+FIELD report_pmb
+FLOC 2 26
+CHECKLIST "Paste_Bot"
+ENDFIELD
+
+FIELD report_dol
+FLOC 15 2
+CHECKLIST "Drawing_Outline"
+ENDFIELD
+
+FIELD report_pbt
+FLOC 15 5
+CHECKLIST "Pb_Top"
+ENDFIELD
+
+FIELD report_pbb
+FLOC 15 8
+CHECKLIST "Pb_Bot"
+ENDFIELD
+
+FIELD report_dfat
+FLOC 15 11
+CHECKLIST "DFA_Top"
+ENDFIELD
+
+FIELD report_dfab
+FLOC 15 14
+CHECKLIST "DFA_Bot"
+ENDFIELD
+
+FIELD report_pk_kpin
+FLOC 15 17
+CHECKLIST "Package Keepin"
+ENDFIELD
+
+FIELD report_pk_kout
+FLOC 15 20
+CHECKLIST "Package Keepout"
+ENDFIELD
+
+FIELD report_route_kpin
+FLOC 15 23
+CHECKLIST "Route Keepin"
+ENDFIELD
+
+FIELD report_route_kout
+FLOC 15 26
+CHECKLIST "Route Keepout"
+ENDFIELD
+
+FIELD report_via_kout
+FLOC 35 2
+CHECKLIST "Via_keepout"
+ENDFIELD
+
+FIELD OK_button
+FLOC 2 30
+MENUBUTTON "OK" 7 3
+ENDFIELD
+
+FIELD Close_button
+FLOC 11 30
+MENUBUTTON "Close" 7 3
+ENDFIELD
+
+#======================
+ENDTILE
+
+ENDFORM

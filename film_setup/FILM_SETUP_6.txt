@@ -1,0 +1,6 @@
+axlFilmCreate( "L05_PWR" ?negative nil ?undefineLineWidth 6.000 ?sequence 15 
+	?rotation 0 ?xOffset 0.000 ?yOffset 0.000 ?shapeBoundingBox 100.000 ?mirrored nil ?fullContact nil 
+	?suppressUnconnectPads nil ?drawMissingPadApertures nil ?useApertureRotation nil 
+	?suppressShapeFill nil ?vectorBasedPad t ?drawHolesOnly nil 
+	?domains '(ipc2581 pdf artwork visibility ) ?ipc2581 '() 
+	?layers '("VIA CLASS/L05_PWR" "PIN/L05_PWR" "ETCH/L05_PWR" "BOARD GEOMETRY/OUTLINE" ))

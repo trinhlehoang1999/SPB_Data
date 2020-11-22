@@ -30,3 +30,34 @@ git remote add origin https://github.com/trinhlehoang1999/SPB_Data.git
 git add -A
 git commit -m "allegro 17.2"
 git push origin master
+git add -A
+git add -A
+git commit -m "pad and footprint"
+git push origin master
+code .
+code .
+python
+code .
+git clone https://github.com/Qspace/PyOpenCVCourse.git
+git clone https://github.com/Qspace/PyOpenCVCourse.git
+python
+code .
+code .
+code .
+code.
+code .
+code .
+code ,
+code .
+code .
+code .
+dir
+python practise.py 
+python practise.py 
+python practise.py 
+python practise.py 
+python practise.py 
+python practise.py 
+python practise.py 
+code .
+python practise.py 

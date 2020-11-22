@@ -428,4 +428,10 @@ source -q $ALLEGRO_SITE/site.env
 ### Please do not modify to the end of the file.
 ### Place your hand edits above this section.
 ###
+set padpath = $padpath D:/allegro_pra/PROJECT6/WORK/LIB/ D:/allegro_pra/PROJECT6/WORK/LIB/OUTLINE/
+set psmpath = $psmpath D:/allegro_pra/PROJECT6/WORK/LIB/OUTLINE/ D:/allegro_pra/PROJECT6/WORK/LIB/
+set devpath = $devpath D:/allegro_pra/PROJECT6/WORK/LIB/OUTLINE D:/allegro_pra/PROJECT6/WORK/LIB/
+set modulepath = $modulepath D:/allegro_pra/PROJECT6/WORK/LIB/OUTLINE/
+set techpath = $techpath D:/allegro_pra/PROJECT6/WORK/LIB/OUTLINE/
 set no_dragpopup
+set scriptpath = C:/SPB_Data/script/ $scriptpath
