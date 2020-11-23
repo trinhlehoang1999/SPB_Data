@@ -2,7 +2,7 @@ FILE_TYPE=FORM_DEFN VERSION=2
 FORM
 FIXED
 PORT 80 100
-HEADER "Show Artwork----@Truong"
+HEADER "----Show Artwork----@hoang (design by Truong)"----
 
 TILE
 #======================

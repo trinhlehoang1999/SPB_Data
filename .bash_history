@@ -61,3 +61,7 @@ python practise.py
 python practise.py 
 code .
 python practise.py 
+git add -A
+git add -A
+git commit -m "film_setup"
+git push origin master
