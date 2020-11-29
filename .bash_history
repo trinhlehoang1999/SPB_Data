@@ -65,3 +65,39 @@ git add -A
 git add -A
 git commit -m "film_setup"
 git push origin master
+git add -A
+git commit -m "update" 
+git push origin master
+git clone https://github.com/uoyniXnaH/AXL-SKILL.git
+git clone https://github.com/uoyniXnaH/AXL-SKILL.git
+code .
+code .
+git clone -b OpenCV-4.1.1-x64 git@github.com:huihut/OpenCV-MinGW-Build.git
+ls
+git clone https://github.com/huihut/OpenCV-MinGW-Build.git
+git clone https://github.com/Cuda-Chen/opencv-config-with-vscode.git
+coe .
+code .
+start opencvexample.
+start .\opencnexample.exe
+sudo code .
+code .
+python python.py
+python python - Copy.exe
+code .
+code .
+code .
+CODE .
+code .
+code .
+code .
+code .
+start opencvexample.exe
+./opencvexample.exe 
+code .
+wsl
+wsl
+code .
+code .
+code .
+code .

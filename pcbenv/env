@@ -391,7 +391,7 @@ ias cdnshelp	cdsdoc
 funckey a add connectal
 funckey a "add connectal"
 
-funckey c cancel
+//funckey c cancel
 funckey z undo
 
 #--------------------------------------------------------------------
