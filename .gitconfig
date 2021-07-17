@@ -1,3 +1,13 @@
 [user]
-	email = trinhlehoang1999@gmail.com
+	email = 51960623+trinhlehoang1999@users.noreply.github.com
 	name = trinhlehoang1999
+[difftool "sourcetree"]
+	cmd = '' \"$LOCAL\" \"$REMOTE\"
+[mergetool "sourcetree"]
+	cmd = "'' "
+	trustExitCode = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

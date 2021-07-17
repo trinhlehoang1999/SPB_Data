@@ -428,10 +428,14 @@ source -q $ALLEGRO_SITE/site.env
 ### Please do not modify to the end of the file.
 ### Place your hand edits above this section.
 ###
-set padpath = $padpath D:/allegro_pra/PROJECT6/WORK/LIB/ D:/allegro_pra/PROJECT6/WORK/LIB/OUTLINE/
-set psmpath = $psmpath D:/allegro_pra/PROJECT6/WORK/LIB/OUTLINE/ D:/allegro_pra/PROJECT6/WORK/LIB/
-set devpath = $devpath D:/allegro_pra/PROJECT6/WORK/LIB/OUTLINE D:/allegro_pra/PROJECT6/WORK/LIB/
-set modulepath = $modulepath D:/allegro_pra/PROJECT6/WORK/LIB/OUTLINE/
-set techpath = $techpath D:/allegro_pra/PROJECT6/WORK/LIB/OUTLINE/
+set padpath = $padpath C:/SPB_Data/library/pad/ D:/allegro_pra/PROJECT5/PROJECT_5/WORK/LIB
+set miscpath = D:/allegro_pra/PROJECT5/PROJECT_5/WORK/LIB/outline $miscpath D:/allegro_pra/PROJECT5/PROJECT_5/WORK/LIB
+set psmpath = $psmpath D:/allegro_pra/PROJECT6/WORK/LIB/OUTLINE/ C:/SPB_Data/library/pad/ D:/allegro_pra/PROJECT6/WORK/LIB/ D:/allegro_pra/PROJECT5/PROJECT_5/WORK/LIB
+set devpath = D:/allegro_pra/PROJECT6/WORK/LIB/OUTLINE $devpath C:/SPB_Data/library/pad/ D:/allegro_pra/PROJECT6/WORK/LIB/
+set modulepath = $modulepath C:/SPB_Data/library/pad/ D:/allegro_pra/PROJECT6/WORK/LIB/OUTLINE/ D:/allegro_pra/PROJECT5/PROJECT_5/WORK/LIB/outline
+set techpath = D:/allegro_pra/PROJECT5/PROJECT_5/WORK/LIB/outline $techpath C:/SPB_Data/library/pad/ D:/allegro_pra/PROJECT6/WORK/LIB/OUTLINE/
+set steppath = D:/hoang/iot_stm32f1/iot_stm32_ver2/WORK/ $steppath D:/hoang/iot_stm32f1/iot_stm32_ver2/WORK/
 set no_dragpopup
 set scriptpath = C:/SPB_Data/script/ $scriptpath
+set formpath = $formpath C:/SPB_Data/skill/
+set menupath = $menupath C:/SPB_Data/skill/
